@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.Application", "ePMSArch.Application", "{D6F5814F-3DDE-402F-B0EF-A3BC5DE9573A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.Domain", "ePMSArch.Domain", "{14E7ED22-59DF-48D0-8C48-CD3812DE1C9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.Infra.IoC", "ePMSArch.Infra.IoC", "{57F7464C-2C40-4B11-A491-7EE268369CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.UI.Mvc", "ePMSArch.UI.Mvc", "{C807D36E-6A66-4EB5-B1F1-B387590FBAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.Infra.Data", "ePMSArch.Infra.Data", "{5901BCA0-820F-4DE2-8D64-D3D74FD49311}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
