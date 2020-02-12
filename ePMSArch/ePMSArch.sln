@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.UI.Mvc", "ePMSArch
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ePMSArch.Infra.Data", "ePMSArch.Infra.Data", "{5901BCA0-820F-4DE2-8D64-D3D74FD49311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePMSLease", "ePMSLease\ePMSLease.csproj", "{78D46CCB-B66F-49CA-AB76-1ED8F22AE303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePMSLease", "ePMSLease\ePMSLease.csproj", "{78D46CCB-B66F-49CA-AB76-1ED8F22AE303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{78D46CCB-B66F-49CA-AB76-1ED8F22AE303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78D46CCB-B66F-49CA-AB76-1ED8F22AE303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78D46CCB-B66F-49CA-AB76-1ED8F22AE303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{78D46CCB-B66F-49CA-AB76-1ED8F22AE303} = {C807D36E-6A66-4EB5-B1F1-B387590FBAE9}
+		{511D03C0-761A-4D0E-AA3B-A4DF7D7EF1FE} = {14E7ED22-59DF-48D0-8C48-CD3812DE1C9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D90DADC5-3A15-4BC1-A16A-96DEC90FCB3C}
